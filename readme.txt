@@ -1,6 +1,6 @@
 # Do They?
 
-This repository contains a web application for conducting a love questionnaire. The questionnaire aims to assess various aspects of romantic relationships, including behaviors, emotions, and thoughts, through a series of questions and sentiment analysis of collected quantitative and qualitative data including sentiment analysis of text responses.
+This repository contains a web application for conducting a survey. The questionnaire aims to assess various aspects of romantic relationships, including behaviors, emotions, and decisions/thoughts, through a series of questions and sentiment analysis of collected quantitative and qualitative data.
 
 ## Features
 
@@ -19,7 +19,7 @@ This repository contains a web application for conducting a love questionnaire. 
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies listed in `requirements.txt`.
-3. Run the application using the command `streamlit run love_questionnaire.py`.
+3. Run the application using the command `streamlit run dothey.py`.
 4. Access the application in your web browser and complete the questionnaire.
 5. Review the interpreted results based on your responses and sentiment analysis.
 
