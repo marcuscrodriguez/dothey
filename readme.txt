@@ -33,7 +33,7 @@ This project is licensed under the [MIT License] (https://github.com/git/git-scm
 
 ## Acknowledgements
 
-- This project is inspired by the work of psychologists and relationship experts in assessing and understanding romantic relationships. A special
-thanks to Dr. Richard Conner for his novel work in this field.
+- This project is inspired by the work of psychologists and relationship experts in assessing and understanding romantic relationships. 
+A special thanks to Dr. Richard Conner for his inspirational work in this field.
 - Also a special thanks to [Streamlit](https://streamlit.io/) for providing an easy-to-use framework for building web applications with Python.
 
