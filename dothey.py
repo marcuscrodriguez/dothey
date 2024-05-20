@@ -83,7 +83,7 @@ def main():
             df.insert(1, 'Gender', gender)
             df.insert(2, 'Sentiment', "%.2f" % sentiment_score)
             # Store responses in a CSV file
-            df.to_csv("do_they.csv", mode='a', header=False)
+            df.to_csv("//do_they.csv", mode='a', header=False)
             st.success("Responses submitted successfully!")
             st.balloons()
             average = "%.2f" % ((df['Response'].sum() + (sentiment_score * 3)) / 20)
