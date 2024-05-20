@@ -3,7 +3,8 @@ import os
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
-
+cwd = os.getcwd()
+cwd
 # Define a function to analyze sentiment using TextBlob
 def analyze_sentiment(text):
     blob = TextBlob(text)
@@ -96,9 +97,8 @@ def main():
             
     # Contact
     st.write("🚥️ If you have any questions or concerns with respect to the survey you may contact marcuscrodriguez@outlook.com / www.marcusc.com.")
-    cwd = os.getcwd()
-    cwd
-    #st.download_button('do_they.csv', text_contents, 'text/csv')
+
+    ###st.download_button('do_they.csv', text_contents, 'text/csv')###
     
 if __name__ == "__main__":
     main()
