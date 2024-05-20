@@ -1,10 +1,7 @@
-import glob
-import os
 import streamlit as st
 import pandas as pd
 from textblob import TextBlob
-cwd = os.getcwd()
-cwd
+
 # Define a function to analyze sentiment using TextBlob
 def analyze_sentiment(text):
     blob = TextBlob(text)
@@ -86,7 +83,7 @@ def main():
             df.insert(1, 'Gender', gender)
             df.insert(2, 'Sentiment', "%.2f" % sentiment_score)
             # Store responses in a CSV file
-            df.to_csv("do_they.csv", mode='a', header=False)
+            df.to_csv('do_they.csv', mode='a', header=False)
             st.success("Responses submitted successfully!")
             st.balloons()
             average = "%.2f" % ((df['Response'].sum() + (sentiment_score * 3)) / 20)
@@ -97,8 +94,6 @@ def main():
             
     # Contact
     st.write("🚥️ If you have any questions or concerns with respect to the survey you may contact marcuscrodriguez@outlook.com / www.marcusc.com.")
-
-    ###st.download_button('do_they.csv', text_contents, 'text/csv')###
     
 if __name__ == "__main__":
     main()
